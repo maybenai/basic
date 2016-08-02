@@ -13,6 +13,7 @@
 
 @implementation MulChooseTable
 
+
 + (MulChooseTable *)shareTableWithFrame:(CGRect)frame headerTitle:(NSString *)title
 {
     MulChooseTable * shareInstance = [[MulChooseTable alloc] initWithFrame:frame HaveHeader:YES HeaderTitle:title];
@@ -32,7 +33,7 @@
 }
 
 
--(instancetype)initWithFrame:(CGRect)frame HaveHeader:(BOOL)ifhHave HeaderTitle:(NSString *)title{
+- (instancetype)initWithFrame:(CGRect)frame HaveHeader:(BOOL)ifhHave HeaderTitle:(NSString *)title{
     self = [super initWithFrame:frame];
     if(self){
         [self createTable];
@@ -44,6 +45,7 @@
     return self;
 }
 
+#pragma mark  创建TableView--=========================================
 - (void)createTable
 {
     _choosedArr = [NSMutableArray array];
@@ -54,6 +56,7 @@
     [self addSubview:_myTable];
 }
 
+#pragma mark  创建HeaderView和HeaderView上的按钮--=========================================
 -(UIView *)createHeaderView_HeaderTitle:(NSString *)title{
     UIView * headerView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, HeaderHeight)];
     UILabel * HeaderTitleLab = [[UILabel alloc]init];
@@ -82,16 +85,18 @@
     chooseBtn.frame = CGRectMake(0, 0, headerView.frame.size.width, headerView.frame.size.height);
     [chooseBtn addTarget:self action:@selector(ChooseAllClick:) forControlEvents:UIControlEventTouchUpInside];
     [headerView addSubview:chooseBtn];
+    
     return headerView;
 
 }
 
+#pragma mark  全选按钮--=========================================
 -(void)ChooseAllClick:(UIButton *)button{
     _ifAllSelecteSwitch = YES;
     UIButton * chooseIcon = (UIButton *)[_myTable.tableHeaderView viewWithTag:10];
     chooseIcon.selected = !_ifAllSelected;
     _ifAllSelected = !_ifAllSelected;
-    if (_ifAllSelected) {
+    if (_ifAllSelected) {//如果全选按钮,选中的数组移除当前的值,添加所有元素
         [_choosedArr removeAllObjects];
         [_choosedArr addObjectsFromArray:_dataArr];
     }
@@ -139,7 +144,7 @@
         [_choosedArr removeObject:cell.titleLabel.text];
     }
     
-    if (_choosedArr.count<_dataArr.count) {
+    if (_choosedArr.count < _dataArr.count) {
         _ifAllSelected = NO;
         UIButton * chooseIcon = (UIButton *)[_myTable.tableHeaderView viewWithTag:10];
         chooseIcon.selected = _ifAllSelected;

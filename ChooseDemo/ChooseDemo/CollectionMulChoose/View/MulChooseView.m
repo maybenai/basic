@@ -15,15 +15,25 @@ static NSString *CellId = @"CellId";
 static NSString *HeaderId = @"HeaderId";
 
 @interface MulChooseView ()<UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
-
+/**
+ *  UICollectionView
+ */
 @property(nonatomic, strong) UICollectionView * chooseView;
-
+/**
+ *  重用的View
+ */
 @property(nonatomic, strong) UICollectionReusableView * reuseableView;
-
+/**
+ *  选中的数组
+ */
 @property(nonatomic, strong) NSMutableArray * choosedArr;
-
+/**
+ *  是否全选
+ */
 @property(nonatomic, assign,getter=allSelected) BOOL ifAllSelected;
-
+/**
+ *  全选和全不选的标志
+ */
 @property(nonatomic, assign,getter=allSelectSwitch) BOOL ifAllSelectSwitch;
 
 @end
@@ -79,6 +89,7 @@ static NSString *HeaderId = @"HeaderId";
 
 
 #pragma mark  CollectionViewDelegate--=========================================
+//用于设置CollectionView section的headerView和footerView
 - (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath
 {
     if (kind == UICollectionElementKindSectionHeader) {
@@ -119,6 +130,8 @@ static NSString *HeaderId = @"HeaderId";
     
     return self.reuseableView;
 }
+
+#pragma mark  全选按钮--=========================================
 
 - (void)chooseAllClick:(UIButton *)button
 {

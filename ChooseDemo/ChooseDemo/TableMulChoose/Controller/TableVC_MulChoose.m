@@ -20,8 +20,17 @@
 @implementation TableVC_MulChoose
 
 -(void)viewWillAppear:(BOOL)animated{
+    
     [super viewWillAppear:animated];
+    
     self.navigationController.navigationBar.hidden = NO;
+    
+
+}
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
     
     self.view.backgroundColor = [UIColor whiteColor];
     
@@ -37,11 +46,6 @@
         NSLog(@"数据：%@ ; %@",chooseContent,chooseArr);
     };
     [self.view addSubview:_myTable];
-}
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
 }
 
 

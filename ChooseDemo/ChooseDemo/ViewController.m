@@ -29,6 +29,12 @@
     
     [super viewDidLoad];
     
+    [self initialUserInterface];
+}
+
+- (void)initialUserInterface
+{
+    //多选按钮
     UIButton * TableChooseBtn = [self createBtnTitle:@"TableView多选" Selector:@selector(TableMulChooseBtn:)];
     [self.view addSubview:TableChooseBtn];
     [TableChooseBtn mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -38,6 +44,7 @@
         make.height.mas_equalTo(50);
     }];
     
+    //单选按钮
     UIButton * TableSingleChooseBtn = [self createBtnTitle:@"TableView单选" Selector:@selector(TableSigleChooseBtn:)];
     [self.view addSubview:TableSingleChooseBtn];
     [TableSingleChooseBtn mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -47,7 +54,7 @@
         make.height.mas_equalTo(50);
     }];
     
-    
+    //多选
     UIButton * CollectMulChooseBtn = [self createBtnTitle:@"CollectView多选" Selector:@selector(CollectViewChooseBtn:)];
     [self.view addSubview:CollectMulChooseBtn];
     [CollectMulChooseBtn mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -57,6 +64,7 @@
         make.height.mas_equalTo(50);
     }];
     
+    //单选
     UIButton * CollectSingleChooseBtn = [self createBtnTitle:@"CollectView单选" Selector:@selector(CollectViewSingleChooseBtn:)];
     [self.view addSubview:CollectSingleChooseBtn];
     [CollectSingleChooseBtn mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -65,9 +73,12 @@
         make.top.equalTo(CollectMulChooseBtn.mas_bottom).offset(20);
         make.height.mas_equalTo(50);
     }];
+
 }
 
 
+
+#pragma mark  创建一个按钮--=========================================
 -(UIButton *)createBtnTitle:(NSString *)title Selector:(SEL)selector{
     UIButton * btn = [[UIButton alloc]init];
     [btn setTitle:title forState:UIControlStateNormal];
@@ -77,12 +88,14 @@
     return  btn;
 }
 
+#pragma mark  TableView多选按钮--=========================================
 -(void)TableMulChooseBtn:(UIButton *)btn{
     TableVC_MulChoose * tableChoose = [[TableVC_MulChoose alloc]init];
     tableChoose.view.backgroundColor = [UIColor whiteColor];
     [self.navigationController pushViewController:tableChoose animated:YES];
 }
 
+#pragma mark  TableView单选按钮--=========================================
 -(void)TableSigleChooseBtn:(UIButton *)btn{
     TableVC_SingleChoose* tableSingleChoose = [[TableVC_SingleChoose alloc]init];
     tableSingleChoose.view.backgroundColor = [UIColor whiteColor];
@@ -91,6 +104,7 @@
     
 }
 
+#pragma mark  CollectView单选按钮--=========================================
 -(void)CollectViewChooseBtn:(UIButton *)btn{
     CollectViewVC_Mulchoose * collectChoose = [[CollectViewVC_Mulchoose alloc]init];
     collectChoose.view.backgroundColor = [UIColor whiteColor];
@@ -98,6 +112,7 @@
     [self.navigationController pushViewController:collectChoose animated:YES];
 }
 
+#pragma mark  CollectView多选按钮--=========================================
 -(void)CollectViewSingleChooseBtn:(UIButton *)btn{
     CollectViewVC_SingleChoose * collectSingleChoose = [[CollectViewVC_SingleChoose alloc]init];
     [self.navigationController pushViewController:collectSingleChoose animated:YES];

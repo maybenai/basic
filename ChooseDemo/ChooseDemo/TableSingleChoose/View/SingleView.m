@@ -63,8 +63,10 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if (_currentSelectIndex != nil && _currentSelectIndex != indexPath) {
+    if (_currentSelectIndex != nil && _currentSelectIndex != indexPath) {//如果没有点击过或者当前点的不是重复点击,将点击过的对象变为未点击状态
+        
         TableChooseCell * cell = [tableView cellForRowAtIndexPath:_currentSelectIndex];
+        
         [cell UpdateCellWithState:NO];
 
     }
