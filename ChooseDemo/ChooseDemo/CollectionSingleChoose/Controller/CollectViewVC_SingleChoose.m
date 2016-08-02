@@ -29,6 +29,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
     _dataArr = [[NSMutableArray alloc]initWithCapacity:0];
     _dataArr = [NSMutableArray arrayWithObjects:@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"9", nil];
     _myCollectionView = [SingleChooseCollectionView shareCollectionViewWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, self.view.frame.size.height)];
