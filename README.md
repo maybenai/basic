@@ -9,3 +9,5 @@
 3、LockView实现了图案解锁
 
 4、CollectionViewWaterFall简单的实现了流水布局
+
+5、LSLView自定义的UIView，封装的一个scrollView，只需要初始化view和添加图片数组就可以使用，并且可以自己开关定时器和pageControl
