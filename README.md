@@ -11,3 +11,5 @@
 4、CollectionViewWaterFall简单的实现了流水布局
 
 5、LSLView自定义的UIView，封装的一个scrollView，只需要初始化view和添加图片数组就可以使用，并且可以自己开关定时器和pageControl
+
+6、二维码主要是通过CoreImage里面的CIImage生成二维码， 然后通过扫描二维码能读出里面的信息.注意:传统的CIImage只支持文本，名片和URL
