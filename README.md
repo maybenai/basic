@@ -15,3 +15,5 @@
 6、二维码主要是通过CoreImage里面的CIImage生成二维码， 然后通过扫描二维码能读出里面的信息.注意:传统的CIImage只支持文本，名片和URL
 
 7、Copy&MutableCopy通过测试来表示NSString和NSMutableString的关键字retain、copy、multablCopy，strong的区别
+
+8、ScrollViewWithNav  上滑隐藏导航栏，下滑显示导航栏
