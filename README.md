@@ -17,3 +17,5 @@
 7、Copy&MutableCopy通过测试来表示NSString和NSMutableString的关键字retain、copy、multablCopy，strong的区别
 
 8、ScrollViewWithNav  上滑隐藏导航栏，下滑显示导航栏
+
+9、KVO、KVC、NOtification简单的介绍了实用了KVC KVO和通知
