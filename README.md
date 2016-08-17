@@ -19,3 +19,5 @@
 8、ScrollViewWithNav  上滑隐藏导航栏，下滑显示导航栏
 
 9、KVO、KVC、NOtification简单的介绍了实用了KVC KVO和通知
+
+10、Encryption实现了AES加密解密和MD5加密的过程
