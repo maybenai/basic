@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		162810931D6596E00071F1D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 162810921D6596E00071F1D9 /* main.m */; };
+		162810961D6596E00071F1D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 162810951D6596E00071F1D9 /* AppDelegate.m */; };
+		162810991D6596E00071F1D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 162810981D6596E00071F1D9 /* ViewController.m */; };
+		1628109C1D6596E00071F1D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1628109A1D6596E00071F1D9 /* Main.storyboard */; };
+		1628109E1D6596E00071F1D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1628109D1D6596E00071F1D9 /* Assets.xcassets */; };
+		162810A11D6596E00071F1D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1628109F1D6596E00071F1D9 /* LaunchScreen.storyboard */; };
+		162810AC1D6596E00071F1D9 /* LSLKeyBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 162810AB1D6596E00071F1D9 /* LSLKeyBoardTests.m */; };
+		162810B71D6596E00071F1D9 /* LSLKeyBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 162810B61D6596E00071F1D9 /* LSLKeyBoardUITests.m */; };
+		162810C61D65A0C20071F1D9 /* LSLKeyBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 162810C51D65A0C20071F1D9 /* LSLKeyBoardView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		162810A81D6596E00071F1D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 162810861D6596E00071F1D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1628108D1D6596E00071F1D9;
+			remoteInfo = LSLKeyBoard;
+		};
+		162810B31D6596E00071F1D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 162810861D6596E00071F1D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1628108D1D6596E00071F1D9;
+			remoteInfo = LSLKeyBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1628108E1D6596E00071F1D9 /* LSLKeyBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSLKeyBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		162810921D6596E00071F1D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		162810941D6596E00071F1D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		162810951D6596E00071F1D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		162810971D6596E00071F1D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		162810981D6596E00071F1D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1628109B1D6596E00071F1D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1628109D1D6596E00071F1D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		162810A01D6596E00071F1D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		162810A21D6596E00071F1D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		162810A71D6596E00071F1D9 /* LSLKeyBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSLKeyBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		162810AB1D6596E00071F1D9 /* LSLKeyBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSLKeyBoardTests.m; sourceTree = "<group>"; };
+		162810AD1D6596E00071F1D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		162810B21D6596E00071F1D9 /* LSLKeyBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSLKeyBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		162810B61D6596E00071F1D9 /* LSLKeyBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSLKeyBoardUITests.m; sourceTree = "<group>"; };
+		162810B81D6596E00071F1D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		162810C41D65A0C20071F1D9 /* LSLKeyBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLKeyBoardView.h; sourceTree = "<group>"; };
+		162810C51D65A0C20071F1D9 /* LSLKeyBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLKeyBoardView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1628108B1D6596E00071F1D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162810A41D6596E00071F1D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162810AF1D6596E00071F1D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		162810851D6596E00071F1D9 = {
+			isa = PBXGroup;
+			children = (
+				162810901D6596E00071F1D9 /* LSLKeyBoard */,
+				162810AA1D6596E00071F1D9 /* LSLKeyBoardTests */,
+				162810B51D6596E00071F1D9 /* LSLKeyBoardUITests */,
+				1628108F1D6596E00071F1D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1628108F1D6596E00071F1D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1628108E1D6596E00071F1D9 /* LSLKeyBoard.app */,
+				162810A71D6596E00071F1D9 /* LSLKeyBoardTests.xctest */,
+				162810B21D6596E00071F1D9 /* LSLKeyBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		162810901D6596E00071F1D9 /* LSLKeyBoard */ = {
+			isa = PBXGroup;
+			children = (
+				162810941D6596E00071F1D9 /* AppDelegate.h */,
+				162810951D6596E00071F1D9 /* AppDelegate.m */,
+				162810971D6596E00071F1D9 /* ViewController.h */,
+				162810981D6596E00071F1D9 /* ViewController.m */,
+				162810C41D65A0C20071F1D9 /* LSLKeyBoardView.h */,
+				162810C51D65A0C20071F1D9 /* LSLKeyBoardView.m */,
+				1628109A1D6596E00071F1D9 /* Main.storyboard */,
+				1628109D1D6596E00071F1D9 /* Assets.xcassets */,
+				1628109F1D6596E00071F1D9 /* LaunchScreen.storyboard */,
+				162810A21D6596E00071F1D9 /* Info.plist */,
+				162810911D6596E00071F1D9 /* Supporting Files */,
+			);
+			path = LSLKeyBoard;
+			sourceTree = "<group>";
+		};
+		162810911D6596E00071F1D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				162810921D6596E00071F1D9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		162810AA1D6596E00071F1D9 /* LSLKeyBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				162810AB1D6596E00071F1D9 /* LSLKeyBoardTests.m */,
+				162810AD1D6596E00071F1D9 /* Info.plist */,
+			);
+			path = LSLKeyBoardTests;
+			sourceTree = "<group>";
+		};
+		162810B51D6596E00071F1D9 /* LSLKeyBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				162810B61D6596E00071F1D9 /* LSLKeyBoardUITests.m */,
+				162810B81D6596E00071F1D9 /* Info.plist */,
+			);
+			path = LSLKeyBoardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1628108D1D6596E00071F1D9 /* LSLKeyBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162810BB1D6596E00071F1D9 /* Build configuration list for PBXNativeTarget "LSLKeyBoard" */;
+			buildPhases = (
+				1628108A1D6596E00071F1D9 /* Sources */,
+				1628108B1D6596E00071F1D9 /* Frameworks */,
+				1628108C1D6596E00071F1D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSLKeyBoard;
+			productName = LSLKeyBoard;
+			productReference = 1628108E1D6596E00071F1D9 /* LSLKeyBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		162810A61D6596E00071F1D9 /* LSLKeyBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162810BE1D6596E00071F1D9 /* Build configuration list for PBXNativeTarget "LSLKeyBoardTests" */;
+			buildPhases = (
+				162810A31D6596E00071F1D9 /* Sources */,
+				162810A41D6596E00071F1D9 /* Frameworks */,
+				162810A51D6596E00071F1D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				162810A91D6596E00071F1D9 /* PBXTargetDependency */,
+			);
+			name = LSLKeyBoardTests;
+			productName = LSLKeyBoardTests;
+			productReference = 162810A71D6596E00071F1D9 /* LSLKeyBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		162810B11D6596E00071F1D9 /* LSLKeyBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162810C11D6596E00071F1D9 /* Build configuration list for PBXNativeTarget "LSLKeyBoardUITests" */;
+			buildPhases = (
+				162810AE1D6596E00071F1D9 /* Sources */,
+				162810AF1D6596E00071F1D9 /* Frameworks */,
+				162810B01D6596E00071F1D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				162810B41D6596E00071F1D9 /* PBXTargetDependency */,
+			);
+			name = LSLKeyBoardUITests;
+			productName = LSLKeyBoardUITests;
+			productReference = 162810B21D6596E00071F1D9 /* LSLKeyBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		162810861D6596E00071F1D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = appleLi;
+				TargetAttributes = {
+					1628108D1D6596E00071F1D9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					162810A61D6596E00071F1D9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1628108D1D6596E00071F1D9;
+					};
+					162810B11D6596E00071F1D9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1628108D1D6596E00071F1D9;
+					};
+				};
+			};
+			buildConfigurationList = 162810891D6596E00071F1D9 /* Build configuration list for PBXProject "LSLKeyBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 162810851D6596E00071F1D9;
+			productRefGroup = 1628108F1D6596E00071F1D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1628108D1D6596E00071F1D9 /* LSLKeyBoard */,
+				162810A61D6596E00071F1D9 /* LSLKeyBoardTests */,
+				162810B11D6596E00071F1D9 /* LSLKeyBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1628108C1D6596E00071F1D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162810A11D6596E00071F1D9 /* LaunchScreen.storyboard in Resources */,
+				1628109E1D6596E00071F1D9 /* Assets.xcassets in Resources */,
+				1628109C1D6596E00071F1D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162810A51D6596E00071F1D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162810B01D6596E00071F1D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1628108A1D6596E00071F1D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162810991D6596E00071F1D9 /* ViewController.m in Sources */,
+				162810961D6596E00071F1D9 /* AppDelegate.m in Sources */,
+				162810931D6596E00071F1D9 /* main.m in Sources */,
+				162810C61D65A0C20071F1D9 /* LSLKeyBoardView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162810A31D6596E00071F1D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162810AC1D6596E00071F1D9 /* LSLKeyBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162810AE1D6596E00071F1D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162810B71D6596E00071F1D9 /* LSLKeyBoardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		162810A91D6596E00071F1D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1628108D1D6596E00071F1D9 /* LSLKeyBoard */;
+			targetProxy = 162810A81D6596E00071F1D9 /* PBXContainerItemProxy */;
+		};
+		162810B41D6596E00071F1D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1628108D1D6596E00071F1D9 /* LSLKeyBoard */;
+			targetProxy = 162810B31D6596E00071F1D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1628109A1D6596E00071F1D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1628109B1D6596E00071F1D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1628109F1D6596E00071F1D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				162810A01D6596E00071F1D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		162810B91D6596E00071F1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		162810BA1D6596E00071F1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		162810BC1D6596E00071F1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				INFOPLIST_FILE = LSLKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appleLi.LSLKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		162810BD1D6596E00071F1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				INFOPLIST_FILE = LSLKeyBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appleLi.LSLKeyBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		162810BF1D6596E00071F1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LSLKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appleLi.LSLKeyBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSLKeyBoard.app/LSLKeyBoard";
+			};
+			name = Debug;
+		};
+		162810C01D6596E00071F1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LSLKeyBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appleLi.LSLKeyBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSLKeyBoard.app/LSLKeyBoard";
+			};
+			name = Release;
+		};
+		162810C21D6596E00071F1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LSLKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appleLi.LSLKeyBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LSLKeyBoard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		162810C31D6596E00071F1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LSLKeyBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appleLi.LSLKeyBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LSLKeyBoard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		162810891D6596E00071F1D9 /* Build configuration list for PBXProject "LSLKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162810B91D6596E00071F1D9 /* Debug */,
+				162810BA1D6596E00071F1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		162810BB1D6596E00071F1D9 /* Build configuration list for PBXNativeTarget "LSLKeyBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162810BC1D6596E00071F1D9 /* Debug */,
+				162810BD1D6596E00071F1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		162810BE1D6596E00071F1D9 /* Build configuration list for PBXNativeTarget "LSLKeyBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162810BF1D6596E00071F1D9 /* Debug */,
+				162810C01D6596E00071F1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		162810C11D6596E00071F1D9 /* Build configuration list for PBXNativeTarget "LSLKeyBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162810C21D6596E00071F1D9 /* Debug */,
+				162810C31D6596E00071F1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 162810861D6596E00071F1D9 /* Project object */;
+}
