@@ -23,3 +23,5 @@
 10、Encryption实现了AES加密解密和MD5加密的过程
 
 11、block基础学习demo
+
+12、模拟招商银行输入键盘数字是乱序的demo
