@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05BB1617C2F1B9AFA316A5E8 /* libPods-AVPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A41F417993DA7625373EC98B /* libPods-AVPlayer.a */; };
+		162810D81D66CE3A0071F1D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 162810D71D66CE3A0071F1D9 /* main.m */; };
+		162810DB1D66CE3A0071F1D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 162810DA1D66CE3A0071F1D9 /* AppDelegate.m */; };
+		162810DE1D66CE3A0071F1D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 162810DD1D66CE3A0071F1D9 /* ViewController.m */; };
+		162810E11D66CE3A0071F1D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 162810DF1D66CE3A0071F1D9 /* Main.storyboard */; };
+		162810E31D66CE3A0071F1D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 162810E21D66CE3A0071F1D9 /* Assets.xcassets */; };
+		162810E61D66CE3A0071F1D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 162810E41D66CE3A0071F1D9 /* LaunchScreen.storyboard */; };
+		162810F11D66CE3A0071F1D9 /* AVPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 162810F01D66CE3A0071F1D9 /* AVPlayerTests.m */; };
+		162810FC1D66CE3A0071F1D9 /* AVPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 162810FB1D66CE3A0071F1D9 /* AVPlayerUITests.m */; };
+		162811171D66D7130071F1D9 /* LSLAVPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 162811161D66D7130071F1D9 /* LSLAVPlayerViewController.m */; };
+		1628111A1D66D7230071F1D9 /* LSLMusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 162811191D66D7230071F1D9 /* LSLMusicViewController.m */; };
+		1628111D1D66D7300071F1D9 /* LSLRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1628111C1D66D7300071F1D9 /* LSLRecordViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		162810ED1D66CE3A0071F1D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 162810CB1D66CE3A0071F1D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 162810D21D66CE3A0071F1D9;
+			remoteInfo = AVPlayer;
+		};
+		162810F81D66CE3A0071F1D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 162810CB1D66CE3A0071F1D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 162810D21D66CE3A0071F1D9;
+			remoteInfo = AVPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		162810D31D66CE3A0071F1D9 /* AVPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		162810D71D66CE3A0071F1D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		162810D91D66CE3A0071F1D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		162810DA1D66CE3A0071F1D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		162810DC1D66CE3A0071F1D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		162810DD1D66CE3A0071F1D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		162810E01D66CE3A0071F1D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		162810E21D66CE3A0071F1D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		162810E51D66CE3A0071F1D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		162810E71D66CE3A0071F1D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		162810EC1D66CE3A0071F1D9 /* AVPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		162810F01D66CE3A0071F1D9 /* AVPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerTests.m; sourceTree = "<group>"; };
+		162810F21D66CE3A0071F1D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		162810F71D66CE3A0071F1D9 /* AVPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		162810FB1D66CE3A0071F1D9 /* AVPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerUITests.m; sourceTree = "<group>"; };
+		162810FD1D66CE3A0071F1D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		162811151D66D7130071F1D9 /* LSLAVPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLAVPlayerViewController.h; sourceTree = "<group>"; };
+		162811161D66D7130071F1D9 /* LSLAVPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLAVPlayerViewController.m; sourceTree = "<group>"; };
+		162811181D66D7230071F1D9 /* LSLMusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLMusicViewController.h; sourceTree = "<group>"; };
+		162811191D66D7230071F1D9 /* LSLMusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLMusicViewController.m; sourceTree = "<group>"; };
+		1628111B1D66D7300071F1D9 /* LSLRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLRecordViewController.h; sourceTree = "<group>"; };
+		1628111C1D66D7300071F1D9 /* LSLRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLRecordViewController.m; sourceTree = "<group>"; };
+		165D67F81D6BF33800ECFCEF /* LSLAVPlayer.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSLAVPlayer.pch; sourceTree = "<group>"; };
+		6362BD7FAFC28BDA3ED80074 /* Pods-AVPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AVPlayer/Pods-AVPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		A41F417993DA7625373EC98B /* libPods-AVPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AVPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA87355E5F17528DA94B7479 /* Pods-AVPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-AVPlayer/Pods-AVPlayer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		162810D01D66CE3A0071F1D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BB1617C2F1B9AFA316A5E8 /* libPods-AVPlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162810E91D66CE3A0071F1D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162810F41D66CE3A0071F1D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		162810CA1D66CE3A0071F1D9 = {
+			isa = PBXGroup;
+			children = (
+				162810D51D66CE3A0071F1D9 /* AVPlayer */,
+				162810EF1D66CE3A0071F1D9 /* AVPlayerTests */,
+				162810FA1D66CE3A0071F1D9 /* AVPlayerUITests */,
+				162810D41D66CE3A0071F1D9 /* Products */,
+				6B5443871471AC0BABFF06A0 /* Pods */,
+				67E58200BB6DA1D644926A8A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		162810D41D66CE3A0071F1D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				162810D31D66CE3A0071F1D9 /* AVPlayer.app */,
+				162810EC1D66CE3A0071F1D9 /* AVPlayerTests.xctest */,
+				162810F71D66CE3A0071F1D9 /* AVPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		162810D51D66CE3A0071F1D9 /* AVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				162811091D66D6DE0071F1D9 /* AVPlayer */,
+				1628110D1D66D6DE0071F1D9 /* MusicPlayer */,
+				162811111D66D6DE0071F1D9 /* Record */,
+				162810D91D66CE3A0071F1D9 /* AppDelegate.h */,
+				162810DA1D66CE3A0071F1D9 /* AppDelegate.m */,
+				162810DC1D66CE3A0071F1D9 /* ViewController.h */,
+				162810DD1D66CE3A0071F1D9 /* ViewController.m */,
+				162810DF1D66CE3A0071F1D9 /* Main.storyboard */,
+				162810E21D66CE3A0071F1D9 /* Assets.xcassets */,
+				162810E41D66CE3A0071F1D9 /* LaunchScreen.storyboard */,
+				162810E71D66CE3A0071F1D9 /* Info.plist */,
+				162810D61D66CE3A0071F1D9 /* Supporting Files */,
+			);
+			path = AVPlayer;
+			sourceTree = "<group>";
+		};
+		162810D61D66CE3A0071F1D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				162810D71D66CE3A0071F1D9 /* main.m */,
+				165D67F81D6BF33800ECFCEF /* LSLAVPlayer.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		162810EF1D66CE3A0071F1D9 /* AVPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				162810F01D66CE3A0071F1D9 /* AVPlayerTests.m */,
+				162810F21D66CE3A0071F1D9 /* Info.plist */,
+			);
+			path = AVPlayerTests;
+			sourceTree = "<group>";
+		};
+		162810FA1D66CE3A0071F1D9 /* AVPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				162810FB1D66CE3A0071F1D9 /* AVPlayerUITests.m */,
+				162810FD1D66CE3A0071F1D9 /* Info.plist */,
+			);
+			path = AVPlayerUITests;
+			sourceTree = "<group>";
+		};
+		162811091D66D6DE0071F1D9 /* AVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				1628110A1D66D6DE0071F1D9 /* Controller */,
+				1628110B1D66D6DE0071F1D9 /* Model */,
+				1628110C1D66D6DE0071F1D9 /* View */,
+			);
+			path = AVPlayer;
+			sourceTree = "<group>";
+		};
+		1628110A1D66D6DE0071F1D9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				162811151D66D7130071F1D9 /* LSLAVPlayerViewController.h */,
+				162811161D66D7130071F1D9 /* LSLAVPlayerViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1628110B1D66D6DE0071F1D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1628110C1D66D6DE0071F1D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1628110D1D66D6DE0071F1D9 /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				1628110E1D66D6DE0071F1D9 /* Controller */,
+				1628110F1D66D6DE0071F1D9 /* Model */,
+				162811101D66D6DE0071F1D9 /* View */,
+			);
+			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		1628110E1D66D6DE0071F1D9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				162811181D66D7230071F1D9 /* LSLMusicViewController.h */,
+				162811191D66D7230071F1D9 /* LSLMusicViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1628110F1D66D6DE0071F1D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		162811101D66D6DE0071F1D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		162811111D66D6DE0071F1D9 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				162811121D66D6DE0071F1D9 /* Controller */,
+				162811131D66D6DE0071F1D9 /* Model */,
+				162811141D66D6DE0071F1D9 /* View */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		162811121D66D6DE0071F1D9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1628111B1D66D7300071F1D9 /* LSLRecordViewController.h */,
+				1628111C1D66D7300071F1D9 /* LSLRecordViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		162811131D66D6DE0071F1D9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		162811141D66D6DE0071F1D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		67E58200BB6DA1D644926A8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A41F417993DA7625373EC98B /* libPods-AVPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B5443871471AC0BABFF06A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6362BD7FAFC28BDA3ED80074 /* Pods-AVPlayer.debug.xcconfig */,
+				FA87355E5F17528DA94B7479 /* Pods-AVPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		162810D21D66CE3A0071F1D9 /* AVPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162811001D66CE3A0071F1D9 /* Build configuration list for PBXNativeTarget "AVPlayer" */;
+			buildPhases = (
+				1C30A09FC91E69242AA4B0E5 /* [CP] Check Pods Manifest.lock */,
+				162810CF1D66CE3A0071F1D9 /* Sources */,
+				162810D01D66CE3A0071F1D9 /* Frameworks */,
+				162810D11D66CE3A0071F1D9 /* Resources */,
+				D9083941E509C5BCABDC1257 /* [CP] Embed Pods Frameworks */,
+				B0E066B330198333375A7964 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVPlayer;
+			productName = AVPlayer;
+			productReference = 162810D31D66CE3A0071F1D9 /* AVPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		162810EB1D66CE3A0071F1D9 /* AVPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162811031D66CE3A0071F1D9 /* Build configuration list for PBXNativeTarget "AVPlayerTests" */;
+			buildPhases = (
+				162810E81D66CE3A0071F1D9 /* Sources */,
+				162810E91D66CE3A0071F1D9 /* Frameworks */,
+				162810EA1D66CE3A0071F1D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				162810EE1D66CE3A0071F1D9 /* PBXTargetDependency */,
+			);
+			name = AVPlayerTests;
+			productName = AVPlayerTests;
+			productReference = 162810EC1D66CE3A0071F1D9 /* AVPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		162810F61D66CE3A0071F1D9 /* AVPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 162811061D66CE3A0071F1D9 /* Build configuration list for PBXNativeTarget "AVPlayerUITests" */;
+			buildPhases = (
+				162810F31D66CE3A0071F1D9 /* Sources */,
+				162810F41D66CE3A0071F1D9 /* Frameworks */,
+				162810F51D66CE3A0071F1D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				162810F91D66CE3A0071F1D9 /* PBXTargetDependency */,
+			);
+			name = AVPlayerUITests;
+			productName = AVPlayerUITests;
+			productReference = 162810F71D66CE3A0071F1D9 /* AVPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		162810CB1D66CE3A0071F1D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LSL;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = appleLi;
+				TargetAttributes = {
+					162810D21D66CE3A0071F1D9 = {
+						CreatedOnToolsVersion = 7.2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					162810EB1D66CE3A0071F1D9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 162810D21D66CE3A0071F1D9;
+					};
+					162810F61D66CE3A0071F1D9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 162810D21D66CE3A0071F1D9;
+					};
+				};
+			};
+			buildConfigurationList = 162810CE1D66CE3A0071F1D9 /* Build configuration list for PBXProject "AVPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 162810CA1D66CE3A0071F1D9;
+			productRefGroup = 162810D41D66CE3A0071F1D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				162810D21D66CE3A0071F1D9 /* AVPlayer */,
+				162810EB1D66CE3A0071F1D9 /* AVPlayerTests */,
+				162810F61D66CE3A0071F1D9 /* AVPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		162810D11D66CE3A0071F1D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162810E61D66CE3A0071F1D9 /* LaunchScreen.storyboard in Resources */,
+				162810E31D66CE3A0071F1D9 /* Assets.xcassets in Resources */,
+				162810E11D66CE3A0071F1D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162810EA1D66CE3A0071F1D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162810F51D66CE3A0071F1D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C30A09FC91E69242AA4B0E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B0E066B330198333375A7964 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AVPlayer/Pods-AVPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9083941E509C5BCABDC1257 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AVPlayer/Pods-AVPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		162810CF1D66CE3A0071F1D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162811171D66D7130071F1D9 /* LSLAVPlayerViewController.m in Sources */,
+				1628111D1D66D7300071F1D9 /* LSLRecordViewController.m in Sources */,
+				162810DE1D66CE3A0071F1D9 /* ViewController.m in Sources */,
+				162810DB1D66CE3A0071F1D9 /* AppDelegate.m in Sources */,
+				162810D81D66CE3A0071F1D9 /* main.m in Sources */,
+				1628111A1D66D7230071F1D9 /* LSLMusicViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162810E81D66CE3A0071F1D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162810F11D66CE3A0071F1D9 /* AVPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		162810F31D66CE3A0071F1D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162810FC1D66CE3A0071F1D9 /* AVPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		162810EE1D66CE3A0071F1D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 162810D21D66CE3A0071F1D9 /* AVPlayer */;
+			targetProxy = 162810ED1D66CE3A0071F1D9 /* PBXContainerItemProxy */;
+		};
+		162810F91D66CE3A0071F1D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 162810D21D66CE3A0071F1D9 /* AVPlayer */;
+			targetProxy = 162810F81D66CE3A0071F1D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		162810DF1D66CE3A0071F1D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				162810E01D66CE3A0071F1D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		162810E41D66CE3A0071F1D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				162810E51D66CE3A0071F1D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		162810FE1D66CE3A0071F1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		162810FF1D66CE3A0071F1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		162811011D66CE3A0071F1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6362BD7FAFC28BDA3ED80074 /* Pods-AVPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PREFIX_HEADER = /Users/lisonglin/Desktop/AVPlayer/AVPlayer/LSLAVPlayer.pch;
+				INFOPLIST_FILE = AVPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appleLi.AVPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		162811021D66CE3A0071F1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA87355E5F17528DA94B7479 /* Pods-AVPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PREFIX_HEADER = /Users/lisonglin/Desktop/AVPlayer/AVPlayer/LSLAVPlayer.pch;
+				INFOPLIST_FILE = AVPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appleLi.AVPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		162811041D66CE3A0071F1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AVPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appleLi.AVPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVPlayer.app/AVPlayer";
+			};
+			name = Debug;
+		};
+		162811051D66CE3A0071F1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AVPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appleLi.AVPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AVPlayer.app/AVPlayer";
+			};
+			name = Release;
+		};
+		162811071D66CE3A0071F1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AVPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appleLi.AVPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AVPlayer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		162811081D66CE3A0071F1D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = AVPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appleLi.AVPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AVPlayer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		162810CE1D66CE3A0071F1D9 /* Build configuration list for PBXProject "AVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162810FE1D66CE3A0071F1D9 /* Debug */,
+				162810FF1D66CE3A0071F1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		162811001D66CE3A0071F1D9 /* Build configuration list for PBXNativeTarget "AVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162811011D66CE3A0071F1D9 /* Debug */,
+				162811021D66CE3A0071F1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		162811031D66CE3A0071F1D9 /* Build configuration list for PBXNativeTarget "AVPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162811041D66CE3A0071F1D9 /* Debug */,
+				162811051D66CE3A0071F1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		162811061D66CE3A0071F1D9 /* Build configuration list for PBXNativeTarget "AVPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				162811071D66CE3A0071F1D9 /* Debug */,
+				162811081D66CE3A0071F1D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 162810CB1D66CE3A0071F1D9 /* Project object */;
+}

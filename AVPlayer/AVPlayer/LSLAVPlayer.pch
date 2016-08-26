@@ -1,0 +1,24 @@
+//
+//  LSLAVPlayer.pch
+//  AVPlayer
+//
+//  Created by lisonglin on 16/8/23.
+//  Copyright © 2016年 appleLi. All rights reserved.
+//
+
+
+#ifdef __OBJC__
+#import <Masonry.h>
+
+
+#ifdef DEBUG
+#define LSLog(...) NSLog(__VA_ARGS__)
+
+#else
+
+#define LSLog(...)
+
+#endif
+
+
+#endif
