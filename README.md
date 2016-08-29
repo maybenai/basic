@@ -27,3 +27,5 @@
 12、模拟招商银行输入键盘数字是乱序的demo
 
 13、实现录音的功能
+
+14、NetworkStatus利用Reachability实现监测网络的状态
