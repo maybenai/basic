@@ -31,3 +31,5 @@
 14、NetworkStatus利用Reachability实现监测网络的状态
 
 15、BasicAnimation CAAnimation分类，一句话实现基本动画
+
+16、版本更新
