@@ -33,3 +33,5 @@
 15、BasicAnimation CAAnimation分类，一句话实现基本动画
 
 16、版本更新
+
+17、label横向纵向自适应
