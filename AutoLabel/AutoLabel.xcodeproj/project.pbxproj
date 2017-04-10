@@ -212,6 +212,7 @@
 				TargetAttributes = {
 					163F20A61E124AAF003174B8 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = D788C862EY;
 						ProvisioningStyle = Automatic;
 					};
 					163F20BF1E124AAF003174B8 = {
@@ -430,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D788C862EY;
 				INFOPLIST_FILE = AutoLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = appleLi.AutoLabel;
@@ -441,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = D788C862EY;
 				INFOPLIST_FILE = AutoLabel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = appleLi.AutoLabel;

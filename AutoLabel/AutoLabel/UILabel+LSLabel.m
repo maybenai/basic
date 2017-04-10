@@ -40,6 +40,8 @@
     
     label.backgroundColor = backColor;
     
+    label.lineBreakMode = NSLineBreakByCharWrapping;
+
     return label;
 }
 
