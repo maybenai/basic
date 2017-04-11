@@ -37,4 +37,4 @@
 17、label横向纵向自适应
 
 18、QRCodeDemo实现了二维码的扫描识别功能
-![image](https://github.com/maybenai/raw/master/basic/QRCodeDemo/screenShots/IMG_2003.PNG)
+![image](https://github.com/maybenai/study-demoudy/master/basic/QRCodeDemo/screenShots/IMG_2003.PNG)
