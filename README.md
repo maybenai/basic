@@ -39,5 +39,5 @@
 18、QRCodeDemo实现了二维码的扫描识别功能
 ![image](https://github.com/maybenai/basic/blob/master/QRCodeDemo/screenShots/IMG_2003.PNG)
 
-
+19、LSCollectionView简单的瀑布流使用
 
